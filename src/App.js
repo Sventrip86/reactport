@@ -11,6 +11,7 @@ import About from './components/About';
 import Works from './components/works';
 import Footer from './components/header_footer/Footer';
 import Cards from './components/works/Cards'
+import Contacts from './components/contacts/Contacts'
 
 //style={{ height:"1500px", background:'white'}}
 
@@ -33,8 +34,9 @@ class App extends Component {
        
       </Element>
       
-      <Footer></Footer>
-       
+      <Footer>
+        
+      </Footer>
       </div>
     );
   }

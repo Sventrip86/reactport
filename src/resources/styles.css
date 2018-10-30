@@ -155,7 +155,44 @@ footer .footer_copyright {
     margin-top: 0px;
 }
 
+.container {
+    padding: 10px 20px;
+}
 
+.form_element {
+    margin: 20px 0px;
+}
+
+.form_element label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+input {
+    font-size: 12px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #3F51B5;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+select {
+    width: 236px;
+    font-size: 15px;
+}
+
+.label_error {
+    color: #FF5722;
+    font-weight: 600;
+    margin-top: 10px;
+}
 
 /*====================
         VENUE NFO
