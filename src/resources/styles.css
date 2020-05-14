@@ -66,14 +66,14 @@ header .header_logo_title {
         FOOTER
 ======================*/
 
-footer {
+ footer {
     padding:50px 0px;
     text-align: center;
     font-size: 60px;
     color:#ffffff;
     background: red;
-    font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Roboto', sans-serif;   
+} 
 
 footer .footer_copyright {
     font-size: 18px;
@@ -90,7 +90,6 @@ footer .footer_copyright {
 }
 
 .carrousel_image {
-    
     background-size: cover !important;
 }
 
@@ -145,18 +144,19 @@ footer .footer_copyright {
 }
 
 
-.discount_wrapper .discount_description p { 
+.discount_description p { 
     line-height: 30px;
     font-size: 20px;
     font-weight: 300;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
     margin-top: 0px;
 }
 
 .container {
-    padding: 10px 20px;
+    display: flex;
+    padding: 40px 60px;
 }
 
 .form_element {
@@ -170,14 +170,14 @@ footer .footer_copyright {
     font-weight: 300;
 }
 
-input {
+input input {
     font-size: 12px;
     padding: 8px 12px;
     box-sizing: border-box;
 }
 
 button {
-    background: #3F51B5;
+    background: rgb(45, 46, 56);
     color: #fff;
     font-size: 12px;
     padding: 10px 20px;

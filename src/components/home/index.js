@@ -1,6 +1,7 @@
 import React from 'react'
 import Carrousel from './Carrousel';
 import Typing from 'react-typing-animation';
+import { Container, Row, Col } from 'reactstrap';
 
 const Home = () => {
     
@@ -8,6 +9,7 @@ const Home = () => {
     
     
     return (
+        
         <div style={{position:'relative'}}>
 
             <Carrousel></Carrousel>

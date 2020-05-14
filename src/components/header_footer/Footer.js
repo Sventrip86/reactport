@@ -15,8 +15,10 @@ const Footer = () => {
                         Fab's portfolio 2018.All rights reserved.      
                     </div> 
                 </Fade>
+            
+       
         
-               <Contacts/>
+              
          
             
         

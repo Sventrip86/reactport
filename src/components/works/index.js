@@ -39,11 +39,15 @@ class Works extends Component {
             )
         })
         return (
-            <div className="bck_black">
-                <Container>
-                    
-                    <h2>Works</h2>
-                    
+            <div className="bck_black ">
+
+                
+             
+                        
+                              
+                        <h1>Works</h1>
+
+           
                     <div>
                         <Container >
                             <Row>
@@ -51,7 +55,7 @@ class Works extends Component {
                             </Row>
                         </Container>
                     </div>
-                </Container>
+                
                 
                 
             </div>
